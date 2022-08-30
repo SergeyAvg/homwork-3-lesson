@@ -1,0 +1,11 @@
+﻿Console.WriteLine("Введите первый кординат");
+int x1 = int.Parse(Console.ReadLine());
+int y1 = int.Parse(Console.ReadLine());
+int z1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите второй кординат");
+int x2 = int.Parse(Console.ReadLine());
+int y2 = int.Parse(Console.ReadLine());
+int z2 = int.Parse(Console.ReadLine());
+Console.WriteLine("Расстояние между 2 точками");
+int distance = (((x2 - x1)^2 + (y2 - y1)^2 + (z2 - z1)^2)^(1/2)^ 2);
+Console.WriteLine(distance);
